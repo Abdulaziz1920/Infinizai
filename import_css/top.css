@@ -1,0 +1,58 @@
+.top {
+  display: flex;
+  padding: 214px 0 255px;
+}
+
+.top_text {
+  display: flex;
+  align-items: center;
+}
+
+.top-img {
+  width: 50%;
+}
+
+.top_text h3 {
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+
+.top-title h1 {
+  padding: 16px 0 43px;
+  line-height: 86px;
+  font-size: 72px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.top-title p {
+  padding-bottom: 53px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #999999;
+}
+
+.top-title a {
+  padding: 21px 34px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.top-title a:hover {
+  background-color: #57b8ff;
+  transition: 0.5s;
+}

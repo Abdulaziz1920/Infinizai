@@ -1,0 +1,15 @@
+.multikey_picture {
+  display: flex;
+  justify-content: center;
+  margin-top: -1px;
+}
+
+.multikey_picture img {
+  width: 33.3%;
+}
+
+@media screen and (max-width: 500px) {
+  .multikey_picture {
+    flex-direction: column;
+  }
+}

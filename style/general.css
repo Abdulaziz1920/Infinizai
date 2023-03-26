@@ -1,0 +1,50 @@
+@import url(../import_css/first_nav.css);
+@import url(../import_css/top.css);
+@import url(../import_css/sponsor.css);
+@import url(../import_css/shop.css);
+@import url(../import_css/future.css);
+@import url(../import_css/multikey.css);
+@import url(../import_css/news.css);
+@import url(../import_css/footer.css);
+@import url(../import_css/dark-light-theme.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+#backround {
+  background: linear-gradient(
+    to right,
+    rgba(2, 0, 36, 1) 0 50%,
+    #57b8ff 50% 100%
+  );
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif;
+}
+
+#back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(2, 0, 36);
+  border-radius: 50%;
+  transition: 1s;
+}

@@ -1,0 +1,144 @@
+#news_backround {
+  background-color: black;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 0 64px;
+}
+
+.news_title {
+  width: 50%;
+}
+
+.news_text {
+  display: flex;
+  align-items: center;
+}
+
+.news_title h1 {
+  line-height: 74px;
+  font-size: 64px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.news h3 {
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+
+.news_btn {
+  margin-top: 126.39px;
+}
+
+.news_btn a {
+  padding: 21px 34px;
+  line-height: 28px;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.news_btn a:hover {
+  background-color: #57b8ff;
+  transition: 1s;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.group_left h3 {
+  padding: 54px 0 28px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #57b8ff;
+}
+
+.group_left p {
+  padding-bottom: 86.61px;
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.group_right h3 {
+  padding: 30px 0 20px;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #57b8ff;
+}
+
+.group_right p {
+  padding-bottom: 40px;
+  line-height: 34px;
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.dark #news_backround {
+  background-color: #57b8ff;
+  transition: 1s;
+}
+
+.dark .news * {
+  color: black;
+  transition: 1s;
+}
+
+.dark .group * {
+  color: black;
+  transition: 1s;
+}
+
+.dark .news_btn a:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+@media screen and (max-width: 500px) {
+  .news {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .news_title {
+    margin: 0 auto;
+  }
+
+  .group {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .group_left img {
+    width: 100%;
+  }
+}
