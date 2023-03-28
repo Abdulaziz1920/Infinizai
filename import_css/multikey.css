@@ -1,12 +1,47 @@
+#multikey {
+  position: relative;
+}
+
 .multikey_picture {
   display: flex;
   justify-content: center;
   margin-top: -1px;
+  overflow: hidden;
+}
+
+.multikey_picture img {
+  transition: 5s;
+}
+
+.first:hover,
+.second:hover,
+.third:hover {
+  transform: scale(1.2);
+  transition: 5s;
 }
 
 .multikey_picture img {
   width: 33.3%;
 }
+
+.first_title {
+  position: absolute;
+  left: -15px;
+  top: 255px;
+}
+
+.second_title {
+  position: absolute;
+  left: 438px;
+  top: 245px;
+}
+
+.third_title {
+  position: absolute;
+  left: 900px;
+  top: 230px;
+}
+
 
 @media screen and (max-width: 500px) {
   .multikey_picture {

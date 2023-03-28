@@ -7,6 +7,7 @@
 @import url(../import_css/news.css);
 @import url(../import_css/footer.css);
 @import url(../import_css/dark-light-theme.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -22,11 +23,9 @@ button {
 }
 
 #backround {
-  background: linear-gradient(
-    to right,
-    rgba(2, 0, 36, 1) 0 50%,
-    #57b8ff 50% 100%
-  );
+  background: linear-gradient(to right,
+      rgba(2, 0, 36, 1) 0 50%,
+      #57b8ff 50% 100%);
 }
 
 .container {
@@ -44,7 +43,124 @@ button {
   bottom: 30px;
   width: 50px;
   height: 50px;
-  background-color: rgb(2, 0, 36);
+  background-color: white;
   border-radius: 50%;
   transition: 1s;
+}
+
+#language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#loading {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+.loading-none {
+  opacity: 0;
+  z-index: -1;
+}
+
+@keyframes ldio-xz9adg22t4 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.ldio-xz9adg22t4>div>div {
+  transform-origin: 100px 100px;
+  animation: ldio-xz9adg22t4 3.0303030303030303s linear infinite;
+  opacity: 0.8
+}
+
+.ldio-xz9adg22t4>div>div>div {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px 0 0 0;
+  transform-origin: 100px 100px
+}
+
+.ldio-xz9adg22t4>div div:nth-child(1) {
+  animation-duration: 0.7575757575757576s
+}
+
+.ldio-xz9adg22t4>div div:nth-child(1)>div {
+  background: #93dbe9;
+  transform: rotate(0deg);
+}
+
+.ldio-xz9adg22t4>div div:nth-child(2) {
+  animation-duration: 1.0101010101010102s
+}
+
+.ldio-xz9adg22t4>div div:nth-child(2)>div {
+  background: #689cc5;
+  transform: rotate(0deg);
+}
+
+.ldio-xz9adg22t4>div div:nth-child(3) {
+  animation-duration: 1.5151515151515151s
+}
+
+.ldio-xz9adg22t4>div div:nth-child(3)>div {
+  background: #5e6fa3;
+  transform: rotate(0deg);
+}
+
+.ldio-xz9adg22t4>div div:nth-child(4) {
+  animation-duration: 3.0303030303030303s
+}
+
+.ldio-xz9adg22t4>div div:nth-child(4)>div {
+  background: #3b4368;
+  transform: rotate(0deg);
+}
+
+.loadingio-spinner-wedges-gyh6r9qyyou {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f1f2f3;
+}
+
+.ldio-xz9adg22t4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-xz9adg22t4 div {
+  box-sizing: content-box;
 }
